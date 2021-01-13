@@ -1,6 +1,10 @@
 name: Running bot
  
-on: push
+on:
+ #releasepush:
+    #pushbuild
+  watch: 
+      types: [started]
 
 env:
   TYPE: build
