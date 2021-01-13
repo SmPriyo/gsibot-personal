@@ -1,4 +1,4 @@
-name: Running Gsi bot
+name: RUN GSI BOT
  
 on:
  #releasepush:
@@ -70,7 +70,7 @@ jobs:
              echo "bot-sf-user=${{ secrets.SFUSER }}" >> "sf-creds.config"
              echo "bot-send-announcement=true" >> "sf-creds.config"
              echo "bot-sf-proj=${{ secrets.PROJECT }}" >> "sf-creds.config"
-             echo "bot-announcement-id=-413498937" >> "sf-creds.config"
+             echo "bot-announcement-id=-1001212338973" >> "sf-creds.config"
              echo "bot-sf-pass=${{ secrets.SFPASS }}" >> "sf-creds.config"
              echo "bot-sf-host=frs.sourceforge.net" >> "sf-creds.config"
 
