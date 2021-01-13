@@ -1,10 +1,10 @@
-name: Running bot
+name: Running Gsi bot
  
 on: push
 
 env:
   TYPE: build
-  TZ: Asia/Manila
+  TZ: Asia/Bangladesh
 jobs:
   build:
     runs-on: ubuntu-latest
