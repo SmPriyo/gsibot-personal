@@ -1,4 +1,4 @@
-name: RUN GSI BOT-PERSONAL
+name: RUN GSI BOT
  
 on:
  #releasepush:
